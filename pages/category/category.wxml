@@ -1,0 +1,11 @@
+<!--pages/category/category.wxml-->
+<text>pages/category/category.wxml</text>
+<view>我是分类页面</view>
+
+<view>
+  <view>a</view>
+  <view>b</view>
+  <view>c</view>
+  <view>{{message}}</view>
+</view>
+<button size="mini" bindtap="handleBtnClick">按钮</button>
