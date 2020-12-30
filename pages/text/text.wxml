@@ -1,0 +1,20 @@
+<!--pages/text/text.wxml-->
+<!-- <text>pages/text/text.wxml</text> -->
+<!-- 1.基本使用 -->
+<text>Hello World\n</text>
+<text>您好小程序\n</text>
+
+<!-- 2. selectable: true-->
+<!-- 默认情况下 text中的文本长按是不能被选中 -->
+<text selectable="true">Hello menfutong\n</text>
+<text selectable>Hello men\n</text>
+
+<!-- 3.space: 决定文本空格的大小 -->
+<!-- ensp 半个中文 emsp 一个中文 -->
+<text>Hello World\n</text>
+<text space="nbsp">Hello World\n</text>
+<text space="emsp">Hello World\n</text>
+<text space="ensp">Hello World\n</text>
+
+<!-- 4.decode属性:是否解码文本 -->
+<text decode>5 &gt;3</text>
