@@ -1,16 +1,16 @@
 <!--pages/home/home.wxml-->
 <!-- 1.小程序的数据绑定: {{}} ->Mustache-->
-<view>{{name}}</view>
-<view>我的年龄: {{age+20}}</view>
+<view></view>
+<view></view>
 
 <!-- 2.列表展示 wx:for -->
 <!-- <view>{{students[0].name}}</view> -->
-<view wx:for="{{students}}">{{item.name}}--{{item.age}}</view>
-
+<view wx:for="{{list}}">{{item.title}}</view>
+<open-data type="userAvatarUrl"></open-data>
 <!-- 3.事件监听 -->
-<view>当前计数: {{counter}}</view>
-<button size="mini" bindtap="handleBtnClick">+</button>
-<button size="mini" bindtap="handleSubtraction">-</button>
+<!-- <image src="{{url}}"></image> -->
+<view bindtap="handleViewClick">{{message}}</view>
+<button open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">授权登录</button>
 
 
 
