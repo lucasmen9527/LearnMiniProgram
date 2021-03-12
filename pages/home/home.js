@@ -1,5 +1,5 @@
 // pages/home/home.js
-Component({
+Page({
   /**
    * 组件的属性列表
    */
@@ -11,13 +11,12 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    title:'哈哈哈'
   },
 
-  /**
-   * 组件的方法列表
-   */
-  methods: {
-
+  handlePushDetail() {
+    wx.navigateTo({
+      url: '/pages/detail/detail?title=你好啊',
+    })
   }
 })
