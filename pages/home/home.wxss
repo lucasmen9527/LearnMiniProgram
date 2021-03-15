@@ -1,1 +1,9 @@
-/* pages/home/home.wxss */
+/* components/w-goods/w-goods.wxss */
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+

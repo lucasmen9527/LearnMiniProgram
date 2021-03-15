@@ -1,0 +1,4 @@
+<!--pages/home/childCpns/w-polular/w-polular.wxml-->
+<view class="polular">
+  <image src="/assets/images/home/polular_bg.jpg" mode="widthFix"/>
+</view>

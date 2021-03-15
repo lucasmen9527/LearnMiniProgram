@@ -1,0 +1,10 @@
+<!--components/w-swiper/w-swiper.wxml-->
+<!-- 1.展示轮播图 -->
+<swiper class="swiper" circular="{{true}}" autoplay interval="3000" duration="300" indicator-dots
+  indicator-active-color="#ff5777">
+  <block wx:for="{{list}}" wx:key="{{index}}">
+    <swiper-item>
+      <image src="{{item.image}}" mode="widthFix" />
+    </swiper-item>
+  </block>
+</swiper>
